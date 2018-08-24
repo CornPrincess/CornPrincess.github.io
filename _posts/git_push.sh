@@ -3,7 +3,7 @@ git add .
 echo "========================="
 echo "==       git add .     =="
 echo "========================="
-git commit -m 'add Listener design mode'
+git commit -m 'add JavaSE'
 echo "========================="
 echo "==      git commit     =="
 echo "========================="

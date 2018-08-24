@@ -3,7 +3,7 @@ git add .
 echo "========================="
 echo "==       git add .     =="
 echo "========================="
-git commit -m 'add two algorithms'
+git commit -m 'add Listener design mode'
 echo "========================="
 echo "==      git commit     =="
 echo "========================="

@@ -17,6 +17,8 @@ type: page
 
 * [visualcv](https://www.visualcv.com)
 
+* [markdown手册](http://xianbai.me/learn-md/article/convert/pdf.html)
+
 ## 编程语言
 
 ### JavaScript
@@ -46,6 +48,7 @@ type: page
 
 ## 公开课
 * [MIT公开课](https://ocw.mit.edu/index.htm)
+
 
 ## Comments
 

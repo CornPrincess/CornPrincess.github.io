@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "JavaWeb-监听器Listener"
 date:   2018-08-23 10:15:31 +0800
@@ -175,12 +175,12 @@ public class MyServletContextAttributeListener implements ServletContextAttribut
 	}
 ```
 
-```jsp
+```
 <%
-		Student stu = new Student("minmin", 18);
-		session.setAttribute("stu", stu);
-		session.removeAttribute("stu");
-	%>
+	Student stu = new Student("minmin", 18);
+	session.setAttribute("stu", stu);
+	session.removeAttribute("stu");
+%>
 ```
 
 ### 8.HttpSessionActivationListener

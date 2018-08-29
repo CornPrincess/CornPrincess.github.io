@@ -3,7 +3,7 @@ git add .
 echo "========================="
 echo "==       git add .     =="
 echo "========================="
-git commit -m 'add JavaWeb'
+git commit -m 'add linux collection'
 echo "========================="
 echo "==      git commit     =="
 echo "========================="

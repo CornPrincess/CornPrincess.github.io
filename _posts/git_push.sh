@@ -3,7 +3,7 @@ git add .
 echo "========================="
 echo "==       git add .     =="
 echo "========================="
-git commit -m 'add algorithm'
+git commit -m 'add decorator pattarn'
 echo "========================="
 echo "==      git commit     =="
 echo "========================="

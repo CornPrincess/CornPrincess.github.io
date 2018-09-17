@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Spring-AOP"
 date:   2018-09-15 14:05:31 +0800
@@ -42,7 +42,7 @@ AOP是由AOP联盟提出的一种编程思想，提出的一套编程规范。�
 3. **不改变目标方法执行的结果。**
 
 通知的用法举例：
-1. 定义目标类
+1.定义目标类
 ```java
 // 目标类
 public class SomeServiceImpl implements ISomeService{
@@ -60,7 +60,7 @@ public class SomeServiceImpl implements ISomeService{
 }
 ```
 
-2. 通知类是指，实现了相应通知类型接口的类。当前，实现了这些接口，就要实现这些接口中的方法，而这些方法的执行，则是根据不同类型的通知，其执行时机不同。
+2.通知类是指，实现了相应通知类型接口的类。当前，实现了这些接口，就要实现这些接口中的方法，而这些方法的执行，则是根据不同类型的通知，其执行时机不同。
 前置通知：在目标方法执行之前执行
 后置通知：在目标方法执行之后执行
 环绕通知：在目标方法执行之前与之后均执行
@@ -84,19 +84,19 @@ public class MyMethodBeforeAdvice implements MethodBeforeAdvice{
 }
 ```
 
-3. 注册目标类,在Spring配置文件中注册目标对象Bean
+3.注册目标类,在Spring配置文件中注册目标对象Bean
 ```xml
 <!--  配置目标对象 -->
 <bean id="someService" class="love.minmin.services.SomeServiceImpl" />
 ```
 
-4. 注册通知切面,即在Spring配置文件中注册定义的通知对象Bean。
+4.注册通知切面,即在Spring配置文件中注册定义的通知对象Bean。
 ```xml
 <!--  配置切面：通知 -->
     <bean id="MyMethodBeforeAdvice" class="love.minmin.services.MyMethodBeforeAdvice" />
 ```
 
-5. 注册代理工厂Bean类对象ProxyFactoryBean
+5.注册代理工厂Bean类对象ProxyFactoryBean
 ```xml
 <!-- 配置代理 -->
 	<bean id="serviceProxy"
@@ -119,7 +119,7 @@ public class MyMethodBeforeAdvice implements MethodBeforeAdvice{
 	</bean>
 ```
 
-6. 客户端访问动态代理对象
+6.客户端访问动态代理对象
 ```java
 @Test
 public void test01() {
@@ -162,7 +162,7 @@ public class SomeServiceImpl implements ISomeService{
 }
 ```
 
-2. 定义后置通知切面
+2.定义后置通知切面
 ```java
 // 后置通知，可以获取到目标方法的返回结果，但是无法改变目标方法的结果
 public class MyAfterReturningAdvice implements AfterReturningAdvice{
@@ -179,7 +179,7 @@ public class MyAfterReturningAdvice implements AfterReturningAdvice{
 }
 ```
 
-3. 修改xml文件相关配置
+3.修改xml文件相关配置
 
 ### 环绕通知MethodInterceptor
 定义环绕通知，需要实现MethodInterceptor接口。环绕通知，也叫方法拦截器，可以在目标方法调用之前及之后做处理，**可以改变目标方法的返回值，也可以改变程序执行流程。**
@@ -214,7 +214,7 @@ public class MyMethodInterceptor implements MethodInterceptor{
 这里的参数e为，与具体业务相关的用户自定义的异常类对象。容器会根据异常类型的不同，自动选择不同的该方法执行。**这些方法的执行是在目标方法执行结束后执行的。**
 
 代码举例：
-1. 定义异常类的父类
+1.定义异常类的父类
 ```java
 /*
  * 异常分类：
@@ -235,7 +235,9 @@ public class UserException extends Exception{
 }
 ```
 
-2. 定义异常类的子类
+2.定义异常类的子类
+
+
 ```java
 /*
  * 异常分类：
@@ -267,7 +269,8 @@ public class PasswordException extends UserException{
 }
 ```
 
-3. 定义业务接口。要抛出异常父类。
+
+3.定义业务接口。要抛出异常父类。
 ```java
 // 业务接口
 public interface ISomeService {
@@ -276,7 +279,7 @@ public interface ISomeService {
 }
 ```
 
-4. 定义目标类。
+4.定义目标类。
 ```java
 // 目标类
 public class SomeServiceImpl implements ISomeService{
@@ -298,7 +301,7 @@ public class SomeServiceImpl implements ISomeService{
 }
 ```
 
-5. 定义异常通知
+5.定义异常通知
 ```java
 public class MyThrowsAdvice implements ThrowsAdvice{
 	
@@ -319,7 +322,7 @@ public class MyThrowsAdvice implements ThrowsAdvice{
 }
 ```
 
-6. 配置xml文件并测试
+6.配置xml文件并测试
 ```java
 public class MyTest {
 	
@@ -338,19 +341,20 @@ public class MyTest {
 ```
 
 ### 通知其他方法
-1. 若要给目标方法织入多个切面，则需要在配置代理对象的切面（interceptorNames）属性时，设定为list或者array，也可以使用简便写法，如下：
-```xml
-<property name="interceptorNames"
-			value="MyAfterReturningAdvice, MyMethodBeforeAdvice">
-			<!-- <list>
-				<value>MyAfterReturningAdvice</value>
-				<value>MyMethodBeforeAdvice</value>
-			</list> -->
-		</property>
-```
- 2. 若ProxyFactoryBean配置中target没有实现接口，则会自动采用cglib的方式进行动态代理
+1.若要给目标方法织入多个切面，则需要在配置代理对象的切面（interceptorNames）属性时，设定为list或者array，也可以使用简便写法，如下：
 
-3. 若target实现了接口，但是想要使用cglib进行动态代理，可以在ProxyFactoryBean的配置中添加`proxyTargetClass`属性，将其设为true，或者指定`optimize`属性为true。
+
+```xml
+<property name="interceptorNames" value="MyAfterReturningAdvice, MyMethodBeforeAdvice">
+	<!-- <list>
+		<value>MyAfterReturningAdvice</value>
+		<value>MyMethodBeforeAdvice</value>
+	</list> -->
+</property>
+```
+2.若ProxyFactoryBean配置中target没有实现接口，则会自动采用cglib的方式进行动态代理
+
+3 若target实现了接口，但是想要使用cglib进行动态代理，可以在ProxyFactoryBean的配置中添加`proxyTargetClass`属性，将其设为true，或者指定`optimize`属性为true。
 
 
 ## Advisor 顾问

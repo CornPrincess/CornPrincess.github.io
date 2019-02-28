@@ -1,7 +1,7 @@
-﻿---
+---
 layout: post
 title:  "Python-语句与函数"
-date:   2019-02-18 :17:10 +0800
+date:   2019-02-18 18:17:10 +0800
 categories: Python
 tags: Python语句与函数
 ---
@@ -171,6 +171,7 @@ print(list(list3))
 
 # lambda表达式
 print([item for item in filter(lambda x: x>3, list1)])
-````
+​````
 
   [1]: https://blog.csdn.net/qq_39521554/article/details/80112748
+```

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MIT6_0001F16_Lec1"
+title:  "Introduction_to_Computation-MIT6_0001F16_Lec1"
 date:   2019-03-04 20:25:12 +0800
 categories: Introduction_to_Computation 
 tags: Python 

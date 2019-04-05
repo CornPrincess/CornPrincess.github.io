@@ -10,6 +10,7 @@ tags: easy
 {:toc}
 
 [original problem link][1]
+
 #Description
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -40,6 +41,7 @@ Output: false
 Output: true
 
 [original solution][2]
+
 #Solution
 **Intuition**
 首先思考只有一种括号的情况，如(()()()()()),这种情况只要用计数器counter从左到右记录（的数量，遇见（就+1，遇见）就-1，遍历完成之后counter=0，那么输入的String就是valid。

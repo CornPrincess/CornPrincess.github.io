@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Introduction_to_Computation-MIT6_0001F16_Lec7"
 date:   2019-04-24 23:50:12 +0800
@@ -22,23 +22,23 @@ tags: Python
 
 ## CLASSES OF TESTS
 - Unit testing
-• validate each piece of program
-• testing each function separately
+ - validate each piece of program
+ - testing each function separately
 - Regression testing
-• add test for bugs as you find them
-• catch reintroduced errors that were previously fixed
+ - add test for bugs as you find them
+ - catch reintroduced errors that were previously fixed
 - Integration testing
-• does overall program work? • tend to rush to do this
+ - does overall program work? • tend to rush to do this
 
 ## DEBUGGING STEPS
 - study program code
-• don’t ask what is wrong
-• ask how did I get the unexpected result • is it part of a family?
+ - don’t ask what is wrong
+ - ask how did I get the unexpected result • is it part of a family?
 - scientific method
-• study available data
-• form hypothesis
-• repeatable experiments
-• pick simplest input to test with
+ - study available data
+ - form hypothesis
+ - repeatable experiments
+ - pick simplest input to test with
 
 example code:
 ```python
@@ -57,9 +57,9 @@ Returns: a list containing L1[i]/L2[i] """
 ```
 
 ## Assertions
-- want to be sure that **assumptions** on state of computation are as expected
-- use an **assert statement** to raise an AssertionError exception if assumptions not met
-- an example of good **defensive programming**
+ - want to be sure that **assumptions** on state of computation are as expected
+ - use an **assert statement** to raise an AssertionError exception if assumptions not met
+ - an example of good **defensive programming**
 
 ASSERTIONS AS DEFENSIVE PROGRAMMING:
 - assertions don’t allow a programmer to control response to unexpected conditions
@@ -73,6 +73,6 @@ WHERE TO USE ASSERTIONS?
 - use as a supplement to testing
 - raise exceptions if users supplies bad data input
 - use assertions to
-• check types of arguments or values
-• check that invariants on data structures are met • check constraints on return values
-• check for violations of constraints on procedure (e.g. no duplicates in a list)
+ - check types of arguments or values
+ - check that invariants on data structures are met • check constraints on return values
+ - check for violations of constraints on procedure (e.g. no duplicates in a list)

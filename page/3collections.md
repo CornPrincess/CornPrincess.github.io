@@ -30,6 +30,8 @@ type: page
 
 * [markdown手册](http://xianbai.me/learn-md/article/convert/pdf.html)
 
+* [工资查询网站](https://www.payscale.com)
+
 ## 编程语言
 
 ### Python

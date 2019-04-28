@@ -9,9 +9,17 @@ type: page
 * content
 {:toc}
 
+## 博客推荐
+
+* [酷壳](https://coolshell.cn/)
+
+* [阮一峰个人网站](http://www.ruanyifeng.com/home.html)
+
 ## 工具
 
 * [IDEA使用手册](http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/)
+
+* [ILovePdf](https://www.ilovepdf.com/)
 
 * [Smallpdf](https://smallpdf.com/)
 
@@ -20,6 +28,10 @@ type: page
 * [markdown手册](http://xianbai.me/learn-md/article/convert/pdf.html)
 
 ## 编程语言
+
+### Python
+
+* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
 ### JavaScript
 
@@ -53,3 +65,7 @@ type: page
 ## Comments
 
 {% include comments.html %}
+
+
+
+

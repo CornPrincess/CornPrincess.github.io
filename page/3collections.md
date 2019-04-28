@@ -10,10 +10,13 @@ type: page
 {:toc}
 
 ## 博客推荐
-
+### 国内博主
 * [酷壳](https://coolshell.cn/)
 
 * [阮一峰个人网站](http://www.ruanyifeng.com/home.html)
+
+### 国外博主
+* [John Washam](https://startupnextdoor.com/)
 
 ## 工具
 

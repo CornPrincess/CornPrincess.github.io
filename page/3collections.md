@@ -9,11 +9,16 @@ type: page
 * content
 {:toc}
 
+## 当前置顶
+* [Google Resource for interview](https://techdevguide.withgoogle.com/)
+
 ## 博客推荐
 ### 国内博主
 * [酷壳](https://coolshell.cn/)
 
 * [阮一峰个人网站](http://www.ruanyifeng.com/home.html)
+
+* [LinkedInfo](https://linkedinfo.co/)
 
 ### 国外博主
 * [John Washam](https://startupnextdoor.com/)

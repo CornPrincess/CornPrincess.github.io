@@ -12,6 +12,7 @@ type: page
 ## 当前置顶
 * [Google Resource for interview](https://techdevguide.withgoogle.com/)
 * [Google kick start](https://codingcompetitions.withgoogle.com/kickstart)
+* [hicounselor](http://hicounselor.com/)
 
 ## 语言
 * [English Pronunciationstudio](https://pronunciationstudio.com/)

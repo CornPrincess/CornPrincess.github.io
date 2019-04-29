@@ -12,6 +12,9 @@ type: page
 ## 当前置顶
 * [Google Resource for interview](https://techdevguide.withgoogle.com/)
 
+## 语言
+* [English Pronunciationstudio](https://pronunciationstudio.com/)
+
 ## 博客推荐
 ### 国内博主
 * [酷壳](https://coolshell.cn/)

@@ -120,7 +120,7 @@ Finally, strategy to ace the interview, there are three most important things to
 Trust yourself and take interview with full confidence, show your passion and zeal to learn during the interview. If you can convince the interviewer that you are willing to learn and improve your skills with time, then you will definitely be the winner.
 
 # Tip
-This week I spent most time to find some tools to make my work and study efficiently, this time, I want to share an application named trello, it has mobile application and online website, we can use it make todo list and make some card.
+This week I spent most time to find some tools to make my work and study efficiently, this time, I want to share an application named [Trello][7], it has mobile application and online website, we can use it make todo list and make some card.
 
 Next week, I just want to share some useful code skills, because this section is responsible for the code skill, I think.
 
@@ -138,3 +138,4 @@ So, I create a [github project][6] to record my cs notes and somoe resources whi
   [4]: https://en.wikipedia.org/wiki/Tim_Berners-Lee
   [5]: https://www.bilibili.com/video/av50376002
   [6]: https://github.com/CornPrincess/Coding-your-life
+  [7]: https://trello.com/

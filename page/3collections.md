@@ -84,6 +84,7 @@ type: page
 ## Book List
 ### 2019
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+* [Automate the Boring Stuff with Python Additional Online Resources](https://nostarch.com/automatestuffresources)
 * [Python 3.5从零开始学](https://book.douban.com/subject/27179280/)
 * [Java核心技术卷一](https://book.douban.com/subject/26880667/)
 

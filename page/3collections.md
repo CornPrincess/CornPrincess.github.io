@@ -28,6 +28,9 @@ type: page
 ### 国外博主
 * [John Washam](https://startupnextdoor.com/)
 
+### 各大公司技术博客
+* [Netfix](https://medium.com/netflix-techblog）
+
 ## 工具
 
 * [IDEA使用手册](http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/)
@@ -78,6 +81,11 @@ type: page
 
 * [Udemy](https://www.udemy.com)
 
+## Book List
+### 2019
+* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+* [Python 3.5从零开始学](https://book.douban.com/subject/27179280/)
+* [Java核心技术卷一](https://book.douban.com/subject/26880667/)
 
 ## Comments
 

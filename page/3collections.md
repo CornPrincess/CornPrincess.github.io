@@ -52,6 +52,8 @@ type: page
 
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
+* [Python Tips](https://book.pythontips.com/en/latest/)
+
 ### JavaScript
 
 * [JavaScript 标准参考教程（alpha） -阮一峰](http://javascript.ruanyifeng.com/)

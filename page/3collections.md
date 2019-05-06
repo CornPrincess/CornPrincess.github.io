@@ -28,6 +28,10 @@ type: page
 ### 国外博主
 * [John Washam](https://startupnextdoor.com/)
 
+* [vinta](https://vinta.ws/code/category/about-misc)
+
+* [yasoob](https://yasoob.me/)
+
 ### 各大公司技术博客
 * [Netfix](https://medium.com/netflix-techblog)
 

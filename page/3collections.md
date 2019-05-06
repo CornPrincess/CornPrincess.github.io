@@ -29,9 +29,10 @@ type: page
 * [John Washam](https://startupnextdoor.com/)
 
 ### 各大公司技术博客
-* [Netfix](https://medium.com/netflix-techblog）
+* [Netfix](https://medium.com/netflix-techblog)
 
 ## 工具
+* [各种语言速查表](https://www.w3cschool.cn/dict/)
 
 * [IDEA使用手册](http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/)
 

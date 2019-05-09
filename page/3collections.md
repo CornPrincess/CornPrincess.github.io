@@ -25,6 +25,8 @@ type: page
 
 * [LinkedInfo](https://linkedinfo.co/)
 
+* [BY Void](https://www.byvoid.com/en/)
+
 ### 国外博主
 * [John Washam](https://startupnextdoor.com/)
 

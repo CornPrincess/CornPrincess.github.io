@@ -23,16 +23,20 @@ type: page
 
 * [阮一峰个人网站](http://www.ruanyifeng.com/home.html)
 
+* [vinta](https://vinta.ws/code/category/about-misc)
+
 * [LinkedInfo](https://linkedinfo.co/)
 
 * [BY Void](https://www.byvoid.com/en/)
 
+* [程序员小吴](https://cxyxiaowu.com)
+
 ### 国外博主
 * [John Washam](https://startupnextdoor.com/)
 
-* [vinta](https://vinta.ws/code/category/about-misc)
-
 * [yasoob](https://yasoob.me/)
+
+* [Terrence Kuo](http://www.terrencekuo.com/
 
 ### 各大公司技术博客
 * [Netfix](https://medium.com/netflix-techblog)

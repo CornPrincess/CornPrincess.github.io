@@ -36,7 +36,7 @@ type: page
 
 * [yasoob](https://yasoob.me/)
 
-* [Terrence Kuo](http://www.terrencekuo.com/
+* [Terrence Kuo](http://www.terrencekuo.com/)
 
 ### 各大公司技术博客
 * [Netfix](https://medium.com/netflix-techblog)

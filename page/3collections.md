@@ -94,6 +94,8 @@ type: page
 
 * [Udemy](https://www.udemy.com)
 
+地方
+
 ## Book List
 ### 2019
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)

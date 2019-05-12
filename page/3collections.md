@@ -94,7 +94,7 @@ type: page
 
 * [Udemy](https://www.udemy.com)
 
-地方
+
 
 ## Book List
 ### 2019

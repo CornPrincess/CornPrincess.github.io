@@ -64,7 +64,7 @@ Runtime: 0 ms
 Memory Usage: 39.6 MB
 
 # Review
-This week [I read a blog How I went from newbie to Software Engineer in 9 months while working full time][1], I am inspired by the author and I want to share some useful suggestion from it.
+This week I read a blog -- [How I went from newbie to Software Engineer in 9 months while working full time][1], I am inspired by the author and I want to share some useful suggestion from it
 
 ## Some Practical Advice
 **Most of below advice are that I do not possess. I have to improve it.**
@@ -155,7 +155,7 @@ Python provides a module named copy that provides both the copy() and deepcopy()
 rjust(), ljust(), center() -- they help print some tabular data.
  
 # Share
-[How to ask questions the samrt way][7]
+[How to ask questions the smart way][7]
 We will have many questions to ask whenever we meet up a bug or need to learn new knowledge, in this case, learning how to ask questions the samrt way is quiet important. This [orignal blog][8] is wirtten by Eric S. Raymond, Rick Moen, thanks a lot.
 
 The first thing to understand is that hackers actually like hard problems and good, thought-provoking questions about them.

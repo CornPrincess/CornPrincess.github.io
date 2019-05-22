@@ -21,6 +21,8 @@ type: page
 ### 国内博主
 * [酷壳](https://coolshell.cn/)
 
+* [agentzh](https://agentzh.org/)
+
 * [阮一峰个人网站](http://www.ruanyifeng.com/home.html)
 
 * [vinta](https://vinta.ws/code/category/about-misc)

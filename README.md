@@ -6,3 +6,5 @@ Welcome to my blog and I am looking forward to your comments.
 I will get up early tomorrow.
 
 I will get up early tomorrow. really
+
+insist on myself

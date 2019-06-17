@@ -11,3 +11,5 @@ insist on myself
 gogogogo
 
 last day！！！！
+
+use my phone just for 30mins

@@ -5,4 +5,11 @@ Welcome to my blog and I am looking forward to your comments.
 
 I will get up early tomorrow.
 
+I will get up early tomorrow. really
 
+insist on myself
+gogogogo
+
+last day！！！！
+
+use my phone just for 30mins

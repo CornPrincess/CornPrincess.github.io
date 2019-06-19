@@ -33,6 +33,8 @@ type: page
 
 * [程序员小吴](https://cxyxiaowu.com)
 
+* [Jie](https://crossoverjie.top/)
+
 ### 国外博主
 * [John Washam](https://startupnextdoor.com/)
 

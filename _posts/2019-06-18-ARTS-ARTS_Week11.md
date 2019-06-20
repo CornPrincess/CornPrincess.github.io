@@ -152,35 +152,6 @@ Space complexity : O(1).
 Runtime: 1 ms, faster than 41.71%
 Memory Usage: 36.4 MB, less than 57.64% 
 
-### Approach3:Using Cyclic Replacements 
-```java
-class Solution {
-    public void rotate(int[] nums, int k) {
-        k = k % nums.length;
-        int count = 0;
-        for (int start = 0; count < nums.length; start++) {
-            int current = start;
-            int prev = nums[start];
-            do {
-                int next = (current + k) % nums.length;
-                int temp = nums[next];
-                nums[next] = prev;
-                prev = temp;
-                current = next;
-                count++;
-            } while (start != current);
-        }
-    }
-}
-```
-
-### Complexity Analysis
-Time complexity : O(n)O(n). Only one pass is used.
-Space complexity : O(1)O(1). Constant extra space is used.
-
-Runtime: 0 ms, faster than 100.00% 
-Memory Usage: 36.3 MB, less than 58.01% 
-
 # Review
 This week the company has taught the concept of the microservice, I read this article to see how the main login function works. 
 [How We Solved Authentication and Authorization in Our Microservice Architecture][1]

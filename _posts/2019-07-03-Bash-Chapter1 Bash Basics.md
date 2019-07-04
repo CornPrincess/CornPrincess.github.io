@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chapter 1. Bash Basics"
+title:  "Chapter1 Bash Basics"
 date:   2019-07-03 23:50:12 +0800
 categories: Bash
 tags: File  

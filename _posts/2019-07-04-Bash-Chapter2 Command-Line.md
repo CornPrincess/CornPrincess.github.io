@@ -9,7 +9,7 @@ tags: Command-Line  vi
 * content
 {:toc}
 
-# Chapter 2. Command-Line Editing
+
 This is exactly what bash allows you to do. It has editing modes that allow you to **edit command lines with editing commands** similar to those of the two most popular UNIX editors, `vi` and `emacs`. It also provides a much-extended analog to the C shell history mechanism called `fc` (for fix command) that, among other things, allows you to use your favorite editor directly for editing your command lines. To round things out, bash also provides the original C shell history mechanism.
 
 bash initially starts interactively with emacs-mode as the default, First, you can use the set command:

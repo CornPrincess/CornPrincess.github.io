@@ -1,3 +1,14 @@
+---
+layout: post
+title:  "JavaScript传递参数"
+date:   2019-12-18 23:50:12 +0800
+categories: JavaScript
+tags: JavaScript 
+---
+
+* content
+{:toc}
+
 > ECMAScript 中所有函数的参数都是按值传递。也就是说，把函数外部的值复制给函数内部的参数，就和把值从一个变量复制到另一个变量一样 ——《JavaScript高级程序设计（第三版）》
 
 本篇博客将围绕书中这一知识点进行深入分析。

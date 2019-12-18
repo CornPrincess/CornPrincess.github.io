@@ -1,3 +1,14 @@
+---
+layout: post
+title:  "JavaScript数据类型"
+date:   2019-12-17 23:50:12 +0800
+categories: JavaScript
+tags: JavaScript 
+---
+
+* content
+{:toc}
+
 本篇博客主要记录JavaScript的数据类型相关的知识。
 
 # 类型

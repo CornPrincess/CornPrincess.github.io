@@ -95,7 +95,7 @@ alert(person.name);    //"Nicholas"
 # 对比其他语言
 
 ## Java
-按值传递。
+按值传递。。
 
 # 参考
 

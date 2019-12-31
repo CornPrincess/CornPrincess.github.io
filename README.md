@@ -4,4 +4,5 @@ This is the blog powered by Jekyll and github pages. Mostly, the theme of this b
 Welcome to my blog and I am looking forward to your comments.
 
 
-start new life！
+2019 bye.
+2020 hello.

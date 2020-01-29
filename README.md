@@ -6,5 +6,3 @@ Welcome to my blog and I am looking forward to your comments.
 
 2019 bye.
 2020 hello.
-
-try
